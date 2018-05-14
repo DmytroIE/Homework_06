@@ -35,7 +35,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 60px;
+  margin-bottom: 97px;
 
 }
 
@@ -50,8 +50,8 @@ input[type="radio"].visually-hidden {
 }
 
 .nav-list-item{
-  margin-top: 10px;
-  margin-right: 54px;
+  margin-top: 24px;
+  margin-right: 55px;
 } 
 
 .nav-list-item:last-child{
@@ -64,7 +64,7 @@ input[type="radio"].visually-hidden {
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  font-size: 14;
+  font-size: 14px;
   font-weight: 400;
   color: #95e1d3;
 }
@@ -76,7 +76,7 @@ input[type="radio"].visually-hidden {
   height: 3px;
   background-color: #f38181;
   margin: 0px auto;
-  margin-top: 7px;
+  margin-top: 9px;
 }
 
 .nav-link:hover {
@@ -89,23 +89,17 @@ input[type="radio"].visually-hidden {
 
 
 
-
 /*-----MAIN-----*/
-
-.page-main {
-
-}
 
 .section-title{
   text-align: center;
-  margin-bottom: 60px;
 }
 
 .kaushan-title{
   display: inline-block;
   font-family: 'Kaushan Script', cursive;
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 .montserrat-title {
   display: inline-block;
@@ -122,14 +116,13 @@ input[type="radio"].visually-hidden {
   height: 3px;
   background-color: #f38181;
   margin: 0px auto;
-  margin-top: 27px;
+  margin-top: 38px;
 }
 
 
 /*-----SECTION SERVICES-----*/
-.services {
-  /*outline: 1px solid; */
-  /* background-color: #f5f; */
+.services-title{
+  margin-bottom: 65px;
 }
 
 
@@ -143,7 +136,7 @@ input[type="radio"].visually-hidden {
 
 .services-list-item {
   flex-basis: 33.333333%;
-  margin-bottom: 90px;
+  margin-bottom: 95px;
   display: flex;
 }
 
@@ -151,16 +144,13 @@ input[type="radio"].visually-hidden {
   margin-bottom: 0;
 }
 
-.services-list-item div {
-
-}
 
 .service-title{
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
   color:#333333;
 }
 
@@ -178,26 +168,41 @@ input[type="radio"].visually-hidden {
   display: inline-block;
   flex: 0 0 32px; /*fully unflexible https://www.w3.org/TR/css-flexbox-1/#flex-common*/
   height: 32px;
-  background-image: url("../img/alarm.png");
   background-repeat: no-repeat;
-  margin: 0 28px;
+  margin: 0 29px;
 
+}
+
+.services-list-item:nth-child(1)::before{
+  background-image: url("../img/alarm.png");
+}
+
+.services-list-item:nth-child(2)::before{
+  background-image: url("../img/line-graph.png");
+}
+
+.services-list-item:nth-child(3)::before{
+  background-image: url("../img/computer.png");
+}
+
+.services-list-item:nth-child(4)::before{
+  background-image: url("../img/book.png");
+}
+
+.services-list-item:nth-child(5)::before{
+  background-image: url("../img/home.png");
+}
+
+.services-list-item:nth-child(6)::before{
+  background-image: url("../img/image.png");
 }
 
 
 
 
-
-
-
-
-
-
-
-
 /*-----SECTION TEAM-----*/
- .team {
-
+.team-title{
+  margin-bottom: 40px;
 }
 
 .team-info{
@@ -208,23 +213,20 @@ input[type="radio"].visually-hidden {
   color: #999999;
   text-align: center;
   width: 940px;
-  margin: 0 auto 80px;
+  margin: 0 auto 89px;
 }
-
-
-
 
 
 .team-cards-list{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 80px;
+  margin-bottom: 63px;
 }
 
 .team-member-photo-container{
 
-  margin-bottom: 18px;
+  margin-bottom: 30px;
   width: 380px;
   height: 470px;
   background-color: #95e1d3;
@@ -279,18 +281,11 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0;
   border: none;
-
-
 }
-
 
 .btn:hover{
   background-color: #95e1d3;
 }
-
-
-
-
 
 
 
@@ -300,7 +295,7 @@ input[type="radio"].visually-hidden {
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
   color:#333333;
 
 }
@@ -311,7 +306,7 @@ input[type="radio"].visually-hidden {
   font-weight: 300;
   font-style: italic;
   font-size: 14px;
-  margin-bottom: 18px;
+  margin-bottom: 19px;
   color:#999999;
 }
 
@@ -322,7 +317,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 2px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
 }
 
 .footer-info{
@@ -347,7 +342,7 @@ input[type="radio"].visually-hidden {
 
 
 .email-input{
-  padding: 0;
+  padding: 0px 0px 0px 10px;
   margin: 0;
   border-top: 1px solid #e5e5e5;
   border-left: 1px solid #e5e5e5;
@@ -361,15 +356,13 @@ input[type="radio"].visually-hidden {
 }
 
 .subscribe-btn{
-  padding: 0;
-
+  padding: 10px 33px 10px 32px;
   border: none;
-  height: 40px;
-  width: 150px;
   background-color: #95e1d3;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 14px;
+  text-transform: uppercase;
 
 }
