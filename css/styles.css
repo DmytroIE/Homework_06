@@ -238,7 +238,7 @@ input[type="radio"].visually-hidden {
   width: 100%;
   height: 100%;
 
-  transition: transform 0.2s linear 0.3s;
+  transition: all 0.2s linear 0.3s;
 }
 
 .photo-curtain{
@@ -253,7 +253,6 @@ input[type="radio"].visually-hidden {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .team-member-photo-container:hover .sliding-photo{
@@ -332,14 +331,10 @@ input[type="radio"].visually-hidden {
   color:#f38181;
 }
 
-.subscribe-form {
-
-}
 .subscribe-container{
   display: flex;
 
 }
-
 
 .email-input{
   padding: 0px 0px 0px 10px;
@@ -350,9 +345,16 @@ input[type="radio"].visually-hidden {
   border-right: none;
   height: 38px;
   font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.email-input::-webkit-input-placeholder {
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-style: italic;
   font-size: 14px;
+  color:#e5e5e5;
 }
 
 .subscribe-btn{
